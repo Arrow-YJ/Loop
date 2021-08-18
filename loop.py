@@ -53,6 +53,56 @@ print("END")
 
 
 
+#Dictionary
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+print(person.clear())
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+print("Copied Person = " ,person.copy())
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+value = "Good"
+trend = dict.fromkeys(person,value)
+print(trend)
+
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.get('Name')
+print(trend)
+
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.items()
+print(trend)
+person.update({'Class': 'High'})
+print(person)
+
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.keys()
+print(trend)
+
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.pop('Age')
+print(trend)
+
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.popitem()
+print(trend)
+
+person = {'Name': 'Yaman', 'Age':'23', 'Sex': 'Male', 'Designation':'Student'}
+trend = person.setdefault('Sex')
+print(trend)
+
+
+
+
+
+
+
 
 
 
